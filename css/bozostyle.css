@@ -1,0 +1,592 @@
+.body {
+  background-color: gray;
+}
+
+.section_hero {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  position: relative;
+}
+
+.chara_hero {
+  height: 60%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.logo {
+  height: 40%;
+  position: absolute;
+  inset: 19% auto auto;
+}
+
+.grass_hero {
+  background-image: url("../images/grass_01.svg");
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 25%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.liane_left {
+  height: 60%;
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+
+.laine_right {
+  height: 30%;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.div-block {
+  z-index: 50;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.div-block-2 {
+  background-color: gray;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 9px;
+  width: 100%;
+  height: 60px;
+}
+
+.separator_ca {
+  background-color: gray;
+  height: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.block_ca {
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}
+
+.ca_in {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.ca {
+  color: gray;
+  font-family: Super Squad, sans-serif;
+  font-size: 20px;
+}
+
+.copy {
+  background-color: gray;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 5px;
+  margin-left: 15px;
+  padding: 12px 50px;
+  font-family: Super Squad, sans-serif;
+  font-size: 20px;
+}
+
+.copy:hover {
+  background-color: gray;
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.ca_mobile {
+  color: gray;
+  font-family: Super Squad, sans-serif;
+  font-size: 20px;
+  display: none;
+}
+
+.section_about_top {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  display: flex;
+  position: relative;
+}
+
+.h1 {
+  font-family: Super Squad, sans-serif;
+  font-size: 110px;
+  line-height: 110px;
+  position: relative;
+  transform: rotate(-7deg);
+}
+
+.h1.h1_2 {
+  color: gray;
+  transform: none;
+}
+
+.h1.h1_3 {
+  text-align: center;
+  line-height: 130px;
+  transform: rotate(-4deg);
+}
+
+.chara_about {
+  z-index: 2;
+  height: 650px;
+  margin-top: -48px;
+  position: relative;
+}
+
+.wave {
+  background-image: url("../images/wave.svg");
+  background-position: 100% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.section_about_bottom {
+  background-color: gray;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 0;
+  display: flex;
+  position: relative;
+}
+
+.block_para {
+  width: 650px;
+  transform: rotate(-4deg);
+}
+
+.paragraph {
+  color: gray;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Super Squad, sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.grass_about {
+  background-image: url("../images/grass_02.svg");
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 150px;
+  position: static;
+  inset: auto 0% 0%;
+  transform: skew(0deg);
+}
+
+.section_tokenomics {
+  background-color: gray;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  position: relative;
+}
+
+.block_tokenomics {
+  background-color: gray;
+  border: 3px solid #8f7400;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  width: 650px;
+  height: auto;
+  margin-top: 0;
+  padding: 15px;
+  position: relative;
+}
+
+.tokenomics_in {
+  background-color: gray;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 0;
+  display: flex;
+}
+
+.tokenomics_details {
+  background-color: gray;
+  border-bottom: 3px solid gray;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.h2 {
+  color: gray;
+  font-family: Super Squad, sans-serif;
+  font-size: 20px;
+}
+
+.chara_tokenomics {
+  height: 450px;
+  margin-top: -43px;
+  position: relative;
+}
+
+.chara_diamond {
+  z-index: 10;
+  height: 400px;
+  margin-right: 0;
+  position: absolute;
+  inset: auto auto -10%;
+}
+
+.wave_block {
+  background-image: url("../images/wave03.svg");
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 300px;
+  position: absolute;
+  inset: auto 0% 30%;
+}
+
+.wave02 {
+  background-color: gray;
+  height: 32%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.section_join {
+  background-color: gray;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  display: flex;
+  position: relative;
+}
+
+.block_links {
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  display: flex;
+  transform: rotate(-4deg);
+}
+
+.tg {
+  background-color: #333;
+  background-image: url("../images/tg.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0;
+}
+
+.chara_footer {
+  pointer-events: none;
+  height: 400px;
+  position: relative;
+}
+
+.grass_footer {
+  background-image: url("../images/grass_01.svg");
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.x {
+  background-color: #333;
+  background-image: url("../images/x.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  width: 60px;
+  height: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0;
+}
+
+.dex {
+  background-color: #333;
+  background-image: url("../images/dex.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  width: 60px;
+  height: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0;
+}
+.cg {
+  background-color: #dad9d9;
+  background-image: url("../images/coingecko.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  width: 60px;
+  height: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0;
+}
+
+.links_hero {
+  justify-content: center;
+  align-items: center;
+  margin: 15px 15px 30px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.buyy {
+  z-index: 50;
+  color: #2c2c2c;
+  background-color: white;
+  border: 3px solid white;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 65px;
+  margin: 30px;
+  font-family: Super Squad, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+
+.buyy:hover {
+  color: black;
+}
+
+.section_welcome {
+  z-index: 2000;
+  background-color: gray;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+}
+
+.title {
+  font-family: Super Squad, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.continuee {
+  z-index: 50;
+  color: #2c2c2c;
+  background-color: white;
+  border: 3px solid white;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 65px;
+  margin: 25px 0 0;
+  font-family: Super Squad, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+}
+
+.continuee:hover {
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 90%;
+    height: auto;
+  }
+
+  .ca {
+    display: none;
+  }
+
+  .ca_mobile {
+    display: flex;
+  }
+
+  .h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .h1.h1_2 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+
+  .h1.h1_3 {
+    line-height: 100px;
+  }
+
+  .chara_about {
+    width: 90%;
+    height: auto;
+  }
+
+  .block_para,
+  .block_tokenomics {
+    width: 90%;
+  }
+
+  .chara_tokenomics {
+    width: 80%;
+    height: auto;
+    margin-top: -9px;
+  }
+
+  .chara_diamond {
+    height: 250px;
+  }
+
+  .links_hero {
+    margin-bottom: 15px;
+    right: auto;
+  }
+
+  .buyy {
+    margin: 25px 0 0;
+    inset: 0% auto auto;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .continuee {
+    margin: 25px 0 0;
+    inset: 0% auto auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .chara_hero {
+    width: 90%;
+    height: auto;
+  }
+
+  .ca {
+    display: none;
+  }
+
+  .ca_mobile {
+    display: flex;
+  }
+
+  .section_about_top {
+    padding-top: 50px;
+  }
+
+  .h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .h1.h1_2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .h1.h1_3 {
+    line-height: 70px;
+  }
+
+  .chara_about {
+    margin-top: -20px;
+  }
+
+  .section_tokenomics {
+    padding-top: 50px;
+  }
+
+  .h2 {
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .chara_footer {
+    pointer-events: none;
+    width: 90%;
+    height: auto;
+  }
+}
+
+@font-face {
+  font-family: "Super Squad";
+  src: url("../fonts/Super-Squad.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Comic Kings";
+  src: url("../fonts/Comic-Kings.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
